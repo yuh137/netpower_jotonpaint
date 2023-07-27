@@ -27,8 +27,6 @@ const MenuScreen = () => {
                     {dummyArray.map((item, index) => {
                         const [visible, setVisible] = useState(false);
 
-                        useEffect(() => {console.log(visible)}, [visible])
-
                         const renderDropdown = () => {
                             if (visible) {
                                 return (
